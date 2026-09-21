@@ -33,6 +33,7 @@ class EnsembleAgent(Agent):
         self.log(f"Pre-processed text using {self.preprocessor.model_name}")
         specialist = self.specialist.price(rewrite)
         frontier = self.frontier.price(rewrite)
-        combined = frontier * 0.9 + specialist * 0.1
+        neural=self.deep_neural_network.price(rewrite)
+        combined = frontier * 0.8 + specialist * 0.1 + neural *0.1
         self.log(f"Ensemble Agent complete - returning ${combined:.2f}")
         return combined

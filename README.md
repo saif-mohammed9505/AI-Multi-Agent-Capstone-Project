@@ -442,11 +442,20 @@ The goal of this project is to demonstrate practical AI engineering by combining
 - Support additional fine-tuned models
 - Add more advanced agent workflows
 
-## 👨‍💻 Author
+# Author
 
 **Saif Mohammed**
 
-AI / Machine Learning / LLM & Multi-Agent Systems
+GitHub:
+
+https://github.com/saif-mohammed9505
+
+
+Built as a practical project for exploring advanced RAG, LangChain, vector databases, embeddings, LLMs, and retrieval optimization.
+
+## License
+
+This project is intended for educational and experimental purposes.
 
 ## 🙏 Acknowledgements
 

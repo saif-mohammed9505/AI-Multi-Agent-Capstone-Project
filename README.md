@@ -268,7 +268,7 @@ Evaluation can be applied to:
 
 ### 1. Clone the repository
 
-    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+    git clone https://github.com/saif-mohammed9505/YOUR_REPOSITORY.git
     cd YOUR_REPOSITORY
 
 ### 2. Create a virtual environment
